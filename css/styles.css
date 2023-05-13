@@ -397,11 +397,13 @@ ul {
   display: flex;
   flex-direction: column;
   position: fixed;
+  text-align: left;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   padding: 80px 32px 32px;
+  
   background-color: var(--color-white);
   z-index: 999;
   overflow: scroll;
